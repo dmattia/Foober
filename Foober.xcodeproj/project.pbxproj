@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F117ADC719EACF400085F06E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F117ADC619EACF400085F06E /* AppDelegate.swift */; };
+		F117ADC919EACF400085F06E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F117ADC819EACF400085F06E /* ViewController.swift */; };
+		F117ADCC19EACF400085F06E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F117ADCA19EACF400085F06E /* Main.storyboard */; };
+		F117ADCE19EACF400085F06E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F117ADCD19EACF400085F06E /* Images.xcassets */; };
+		F117ADD119EACF400085F06E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F117ADCF19EACF400085F06E /* LaunchScreen.xib */; };
+		F117ADDD19EACF400085F06E /* FooberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F117ADDC19EACF400085F06E /* FooberTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F117ADD719EACF400085F06E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F117ADB919EACF400085F06E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F117ADC019EACF400085F06E;
+			remoteInfo = Foober;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F117ADC119EACF400085F06E /* Foober.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foober.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F117ADC519EACF400085F06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F117ADC619EACF400085F06E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F117ADC819EACF400085F06E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F117ADCB19EACF400085F06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F117ADCD19EACF400085F06E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F117ADD019EACF400085F06E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F117ADD619EACF400085F06E /* FooberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FooberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F117ADDB19EACF400085F06E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F117ADDC19EACF400085F06E /* FooberTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooberTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F117ADBE19EACF400085F06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F117ADD319EACF400085F06E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F117ADB819EACF400085F06E = {
+			isa = PBXGroup;
+			children = (
+				F117ADC319EACF400085F06E /* Foober */,
+				F117ADD919EACF400085F06E /* FooberTests */,
+				F117ADC219EACF400085F06E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F117ADC219EACF400085F06E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F117ADC119EACF400085F06E /* Foober.app */,
+				F117ADD619EACF400085F06E /* FooberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F117ADC319EACF400085F06E /* Foober */ = {
+			isa = PBXGroup;
+			children = (
+				F117ADC619EACF400085F06E /* AppDelegate.swift */,
+				F117ADC819EACF400085F06E /* ViewController.swift */,
+				F117ADCA19EACF400085F06E /* Main.storyboard */,
+				F117ADCD19EACF400085F06E /* Images.xcassets */,
+				F117ADCF19EACF400085F06E /* LaunchScreen.xib */,
+				F117ADC419EACF400085F06E /* Supporting Files */,
+			);
+			path = Foober;
+			sourceTree = "<group>";
+		};
+		F117ADC419EACF400085F06E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F117ADC519EACF400085F06E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F117ADD919EACF400085F06E /* FooberTests */ = {
+			isa = PBXGroup;
+			children = (
+				F117ADDC19EACF400085F06E /* FooberTests.swift */,
+				F117ADDA19EACF400085F06E /* Supporting Files */,
+			);
+			path = FooberTests;
+			sourceTree = "<group>";
+		};
+		F117ADDA19EACF400085F06E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F117ADDB19EACF400085F06E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F117ADC019EACF400085F06E /* Foober */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F117ADE019EACF400085F06E /* Build configuration list for PBXNativeTarget "Foober" */;
+			buildPhases = (
+				F117ADBD19EACF400085F06E /* Sources */,
+				F117ADBE19EACF400085F06E /* Frameworks */,
+				F117ADBF19EACF400085F06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Foober;
+			productName = Foober;
+			productReference = F117ADC119EACF400085F06E /* Foober.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F117ADD519EACF400085F06E /* FooberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F117ADE319EACF400085F06E /* Build configuration list for PBXNativeTarget "FooberTests" */;
+			buildPhases = (
+				F117ADD219EACF400085F06E /* Sources */,
+				F117ADD319EACF400085F06E /* Frameworks */,
+				F117ADD419EACF400085F06E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F117ADD819EACF400085F06E /* PBXTargetDependency */,
+			);
+			name = FooberTests;
+			productName = FooberTests;
+			productReference = F117ADD619EACF400085F06E /* FooberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F117ADB919EACF400085F06E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "David Mattia";
+				TargetAttributes = {
+					F117ADC019EACF400085F06E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F117ADD519EACF400085F06E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F117ADC019EACF400085F06E;
+					};
+				};
+			};
+			buildConfigurationList = F117ADBC19EACF400085F06E /* Build configuration list for PBXProject "Foober" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F117ADB819EACF400085F06E;
+			productRefGroup = F117ADC219EACF400085F06E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F117ADC019EACF400085F06E /* Foober */,
+				F117ADD519EACF400085F06E /* FooberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F117ADBF19EACF400085F06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F117ADCC19EACF400085F06E /* Main.storyboard in Resources */,
+				F117ADD119EACF400085F06E /* LaunchScreen.xib in Resources */,
+				F117ADCE19EACF400085F06E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F117ADD419EACF400085F06E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F117ADBD19EACF400085F06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F117ADC919EACF400085F06E /* ViewController.swift in Sources */,
+				F117ADC719EACF400085F06E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F117ADD219EACF400085F06E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F117ADDD19EACF400085F06E /* FooberTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F117ADD819EACF400085F06E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F117ADC019EACF400085F06E /* Foober */;
+			targetProxy = F117ADD719EACF400085F06E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F117ADCA19EACF400085F06E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F117ADCB19EACF400085F06E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F117ADCF19EACF400085F06E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F117ADD019EACF400085F06E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F117ADDE19EACF400085F06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F117ADDF19EACF400085F06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F117ADE119EACF400085F06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Foober/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F117ADE219EACF400085F06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Foober/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F117ADE419EACF400085F06E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FooberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foober.app/Foober";
+			};
+			name = Debug;
+		};
+		F117ADE519EACF400085F06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FooberTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Foober.app/Foober";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F117ADBC19EACF400085F06E /* Build configuration list for PBXProject "Foober" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F117ADDE19EACF400085F06E /* Debug */,
+				F117ADDF19EACF400085F06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F117ADE019EACF400085F06E /* Build configuration list for PBXNativeTarget "Foober" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F117ADE119EACF400085F06E /* Debug */,
+				F117ADE219EACF400085F06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F117ADE319EACF400085F06E /* Build configuration list for PBXNativeTarget "FooberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F117ADE419EACF400085F06E /* Debug */,
+				F117ADE519EACF400085F06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F117ADB919EACF400085F06E /* Project object */;
+}
