@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController, PFLogInViewControllerDelegate {
 
+    @IBOutlet weak var HelloLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,6 +32,11 @@ class ViewController: UIViewController, PFLogInViewControllerDelegate {
             self.presentViewController(login, animated: true, completion: nil)
         } else {
             self.dismissViewControllerAnimated(true, completion: nil)
+        }
+        
+        FBRequestConnection.startForMeWithCompletionHandler { (connection: FBRequestConnection!, result: AnyObject?, error: NSError?) -> Void in
+            println(result)
+            self.HelloLabel.text = "Hello " + result!.name + "!"
         }
     }
     

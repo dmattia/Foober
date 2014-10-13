@@ -40,6 +40,9 @@
                             <constraint firstAttribute="centerY" secondItem="6aZ-N4-ipd" secondAttribute="centerY" id="L9s-VM-y72"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="HelloLabel" destination="6aZ-N4-ipd" id="4XU-Hz-clo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
