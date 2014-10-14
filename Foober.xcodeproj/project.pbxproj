@@ -29,6 +29,8 @@
 		F117AFB619EAD5E30085F06E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117AFB519EAD5E30085F06E /* FacebookSDK.framework */; };
 		F117AFB819EAD6B70085F06E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117AFB719EAD6B70085F06E /* Social.framework */; };
 		F117AFBA19EAD6BE0085F06E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117AFB919EAD6BE0085F06E /* Accounts.framework */; };
+		F1AC5E6D19EDBB0400DCBB16 /* RequestsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC5E6C19EDBB0400DCBB16 /* RequestsPage.swift */; };
+		F1AC5E6F19EDBBAF00DCBB16 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC5E6E19EDBBAF00DCBB16 /* RequestCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		F117AFB519EAD5E30085F06E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		F117AFB719EAD6B70085F06E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		F117AFB919EAD6BE0085F06E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		F1AC5E6C19EDBB0400DCBB16 /* RequestsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsPage.swift; sourceTree = "<group>"; };
+		F1AC5E6E19EDBBAF00DCBB16 /* RequestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 				F117ADC619EACF400085F06E /* AppDelegate.swift */,
 				F117ADC819EACF400085F06E /* ViewController.swift */,
 				F117ADCA19EACF400085F06E /* Main.storyboard */,
+				F1AC5E6E19EDBBAF00DCBB16 /* RequestCell.swift */,
+				F1AC5E6C19EDBB0400DCBB16 /* RequestsPage.swift */,
 				F117ADCD19EACF400085F06E /* Images.xcassets */,
 				F117ADCF19EACF400085F06E /* LaunchScreen.xib */,
 				F117ADC419EACF400085F06E /* Supporting Files */,
@@ -280,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F117ADC919EACF400085F06E /* ViewController.swift in Sources */,
+				F1AC5E6F19EDBBAF00DCBB16 /* RequestCell.swift in Sources */,
+				F1AC5E6D19EDBB0400DCBB16 /* RequestsPage.swift in Sources */,
 				F117ADC719EACF400085F06E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +497,7 @@
 				F117ADE219EACF400085F06E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F117ADE319EACF400085F06E /* Build configuration list for PBXNativeTarget "FooberTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +506,7 @@
 				F117ADE519EACF400085F06E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

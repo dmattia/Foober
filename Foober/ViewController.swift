@@ -11,6 +11,8 @@ import UIKit
 class ViewController: UIViewController, PFLogInViewControllerDelegate {
 
     @IBOutlet weak var HelloLabel: UILabel!
+    var name: String?
+    var userID: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,8 +37,13 @@ class ViewController: UIViewController, PFLogInViewControllerDelegate {
         }
         
         FBRequestConnection.startForMeWithCompletionHandler { (connection: FBRequestConnection!, result: AnyObject?, error: NSError?) -> Void in
-            println(result)
-            self.HelloLabel.text = "Hello " + result!.name + "!"
+            if result != nil {
+                println(result!)
+                self.HelloLabel.text = "Hello " + result!.name + "!"
+                self.name = result!.name
+                self.userID = result!.link
+                println(self.userID!)
+            }
         }
     }
     
