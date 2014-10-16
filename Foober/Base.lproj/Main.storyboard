@@ -53,12 +53,12 @@
         <!--Item-->
         <scene sceneID="Ocl-en-8fC">
             <objects>
-                <viewController id="sj9-Lw-wsB" sceneMemberID="viewController">
+                <viewController id="sj9-Lw-wsB" customClass="MyTableViewController" customModule="Foober" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CNB-K4-RKI"/>
                         <viewControllerLayoutGuide type="bottom" id="LM7-qA-owQ"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8TV-zO-4QG">
+                    <view key="view" contentMode="scaleToFill" id="8TV-zO-4QG" customClass="tableView" customModule="Foober" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -113,6 +113,12 @@
                                                 <constraint firstAttribute="centerX" secondItem="jgE-Y7-t2k" secondAttribute="centerX" id="sXH-00-86F"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="FoodLocation" destination="hKR-KY-l0H" id="CfD-MI-ofd"/>
+                                            <outlet property="foodLocation" destination="hKR-KY-l0H" id="qGv-kt-Uv8"/>
+                                            <outlet property="location" destination="R0I-TG-LS7" id="8ti-Wh-J0g"/>
+                                            <outlet property="timeLabel" destination="waj-Kt-z48" id="1aM-BL-s8a"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -123,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccz-Kx-7qJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1705" y="546"/>
+            <point key="canvasLocation" x="1705" y="508"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Oh2-CL-UmH">

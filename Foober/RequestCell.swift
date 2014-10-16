@@ -10,6 +10,10 @@ import UIKit
 
 class RequestCell: UITableViewCell {
 
+    @IBOutlet weak var foodLocation: UILabel!
+    @IBOutlet weak var location: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +24,11 @@ class RequestCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
+    func setRequestCell(restaurant: String, location: String, time: String) {
+        self.foodLocation.text = restaurant
+        self.location.text = location
+        self.timeLabel.text = time
+    }
+    
 }

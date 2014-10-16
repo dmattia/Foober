@@ -1,14 +1,14 @@
 //
-//  ViewRequestsPage.swift
+//  MyTableViewController.swift
 //  Foober
 //
-//  Created by David Mattia on 10/14/14.
+//  Created by David Mattia on 10/15/14.
 //  Copyright (c) 2014 David Mattia. All rights reserved.
 //
 
 import UIKit
 
-class ViewRequestsPage: UIViewController {
+class MyTableViewController: UIViewController, UITableViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,19 @@ class ViewRequestsPage: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 4
+    }
 
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell: RequestCell = tableView.dequeueReusableCellWithIdentifier("Cell") as RequestCell
+        
+        
+        cell.setRequestCell("1",location: "2",time: "3")
+        
+        return cell
+    }
+    
     /*
     // MARK: - Navigation
 

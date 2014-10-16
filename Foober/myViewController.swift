@@ -1,14 +1,14 @@
 //
-//  MyTabBarController.swift
+//  myViewController.swift
 //  Foober
 //
-//  Created by David Mattia on 10/14/14.
+//  Created by David Mattia on 10/15/14.
 //  Copyright (c) 2014 David Mattia. All rights reserved.
 //
 
 import UIKit
 
-class MyTabBarController: UITabBarController, PFLogInViewControllerDelegate {
+class myViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
