@@ -29,6 +29,7 @@
 		F117AFB619EAD5E30085F06E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117AFB519EAD5E30085F06E /* FacebookSDK.framework */; };
 		F117AFB819EAD6B70085F06E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117AFB719EAD6B70085F06E /* Social.framework */; };
 		F117AFBA19EAD6BE0085F06E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F117AFB919EAD6BE0085F06E /* Accounts.framework */; };
+		F13E397B19F0CC3500DF9810 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13E397A19F0CC3500DF9810 /* Request.swift */; };
 		F15A041F19EF5C03002639FF /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A041E19EF5C03002639FF /* MyTableViewController.swift */; };
 		F15A042719EF5EE7002639FF /* myViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15A042619EF5EE7002639FF /* myViewController.swift */; };
 		F1AC5E6D19EDBB0400DCBB16 /* RequestsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AC5E6C19EDBB0400DCBB16 /* RequestsPage.swift */; };
@@ -73,6 +74,7 @@
 		F117AFB519EAD5E30085F06E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		F117AFB719EAD6B70085F06E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		F117AFB919EAD6BE0085F06E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		F13E397A19F0CC3500DF9810 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		F15A041E19EF5C03002639FF /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		F15A042619EF5EE7002639FF /* myViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myViewController.swift; sourceTree = "<group>"; };
 		F1AC5E6C19EDBB0400DCBB16 /* RequestsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsPage.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				F117ADCA19EACF400085F06E /* Main.storyboard */,
 				F15A042619EF5EE7002639FF /* myViewController.swift */,
 				F15A041E19EF5C03002639FF /* MyTableViewController.swift */,
+				F13E397A19F0CC3500DF9810 /* Request.swift */,
 				F1AC5E6E19EDBBAF00DCBB16 /* RequestCell.swift */,
 				F1AC5E6C19EDBB0400DCBB16 /* RequestsPage.swift */,
 				F117ADCD19EACF400085F06E /* Images.xcassets */,
@@ -295,6 +298,7 @@
 				F1AC5E6F19EDBBAF00DCBB16 /* RequestCell.swift in Sources */,
 				F1AC5E6D19EDBB0400DCBB16 /* RequestsPage.swift in Sources */,
 				F15A041F19EF5C03002639FF /* MyTableViewController.swift in Sources */,
+				F13E397B19F0CC3500DF9810 /* Request.swift in Sources */,
 				F15A042719EF5EE7002639FF /* myViewController.swift in Sources */,
 				F117ADC719EACF400085F06E /* AppDelegate.swift in Sources */,
 			);

@@ -22,12 +22,11 @@ class MyTableViewController: UIViewController, UITableViewDelegate {
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return 1
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell: RequestCell = tableView.dequeueReusableCellWithIdentifier("Cell") as RequestCell
-        
         
         cell.setRequestCell("1",location: "2",time: "3")
         
